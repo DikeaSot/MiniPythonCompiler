@@ -2,10 +2,10 @@
 Assignment for Compilers AUEB course. Winter Semester 2019-20
 
 ---
-## Project Description
+## - Project Description
 The aim of this assignment is to implement a compiler for miniPython language.
 
-## MiniPython Language
+## - MiniPython Language
 MiniPython is a subset of Python and so, the content of a program in miniPython is the same with the content of the same program in Python.
 
 You will be using the tool SableCC, which will make it easier for you to construct the compiler.
