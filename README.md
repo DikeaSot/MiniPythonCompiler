@@ -1,5 +1,6 @@
 # MiniPython Compiler
- Assignment for Compilers AUEB course. Winter Semester 2019-20
+Assignment for Compilers AUEB course. Winter Semester 2019-20
+
 ---
 ## Project Description
 The aim of this assignment is to implement a compiler for miniPython language.
