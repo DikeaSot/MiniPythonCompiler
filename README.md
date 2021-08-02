@@ -136,3 +136,6 @@ Goal
 \<IDENTIFIER> = Variable name
 
 [More information about operators' priority](http://www.mathcs.emory.edu/~valerie/courses/fall10/155/resources/op_precedence.html)
+
+## <a name="lexical"></a> Lexical Analysis
+
