@@ -21,3 +21,18 @@ Additional information can be found on the book Modern Compiler Implementation i
 - Single-line commands
 
 [Code Example](https://github.com/DikeaSot/MiniPythonCompiler/blob/main/Part%202/src/example.py "example.py")
+[Language BNF](#bnf)
+
+## Assignment Structure
+There are two (2) phases for this assignment
+
+**Phase 1**
+[Lexical Analysis](#lexical) for miniPython
+[Syntax Analysis](#syntax) for miniPython
+
+**Phase 2**
+[Abstract Syntax Trees (AST)](#ast) for miniPython
+[Symbol Semantic](#semantic) for miniPython
+
+
+
