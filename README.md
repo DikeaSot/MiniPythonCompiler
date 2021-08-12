@@ -167,11 +167,13 @@ The declaration of the package must definitely be as described above, because th
 
 - ### How to run the .grammar file
 
-Supposingly your file is named *minipython.grammar*, then in the folder your assignment is located you execute the command  `sablecc minipython.grammar`
+Supposingly your file is named *minipython.grammar*, then in the folder your assignment is located you execute the command 
+`sablecc minipython.grammar`
 
 After the execution, a catalog must have been created with the name *minipython*, which contains the following four catalogs: *analysis*, *lexer*, *node* and *parser*.
 After that, in the same folder you execute:
-    `javac LexerTest1.java
-    java LexerTest1 minipythonexample.py`
+
+    javac LexerTest1.java
+    java LexerTest1 minipythonexample.py
 
 The result must be a print of all tokens separated by blanks.
