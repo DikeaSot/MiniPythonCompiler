@@ -141,10 +141,10 @@ There are two (2) phases for this assignment
 
 ## <a name="lexical"></a> Lexical Analysis
 
-### Goal of the exercise
+- ### Goal of the exercise
 You have to construct a lexical analyzer for miniPython using the *SableCC* tool.
 
-### Files
+- ### Files
 You are give the sablecc.jar which you have to download locally on your machine and copy it to a folder *lib* which will be located in the folder you are working on the assignment.
 E.g if you are working on the folder *compiler*, then you have to create a subfolder *lib* and copy the file *sablecc.jar*.
 Furthermore, copy the *sablecc.bat* file (for Windows) to the working folder.
@@ -153,7 +153,7 @@ Moreover, you are given the file [LexerTest1.java][Code Example](https://github.
 
 For anyone working in Linux or IRIX, you should use the file sablecc **instead of sablecc.bat**. In that case, be sure you have given the execution rights to the file you downloaded (chmod + x sablecc).
 
-### Creating Lexical Analyzer
+- ### Creating Lexical Analyzer
 
 What you have to do is to create a file defining the grammar. This file can contain the following parts for this certain phase of the assginment:
 
@@ -165,13 +165,13 @@ What you have to do is to create a file defining the grammar. This file can cont
 The declaration of the package must definitely be as described above, because the name of the folder is being used as import of LexerTest1.java.
 [Here] you are given some instruction for Lexical Analysis.
 
-### How to run the .grammar file
+- ### How to run the .grammar file
 
-Supposingly your file is named *minipython.grammar*, then in the folder your assignment is located you execute the command `sablecc minipython.grammar`
+Supposingly your file is named *minipython.grammar*, then in the folder your assignment is located you execute the command  `sablecc minipython.grammar`
 
 After the execution, a catalog must have been created with the name *minipython*, which contains the following four catalogs: *analysis*, *lexer*, *node* and *parser*.
 After that, in the same folder you execute:
-`javac LexerTest1.java
-java LexerTest1 minipythonexample.py`
+    `javac LexerTest1.java
+    java LexerTest1 minipythonexample.py`
 
 The result must be a print of all tokens separated by blanks.
